@@ -24,8 +24,9 @@ A modern, responsive business website for Nexus Solutions, showcasing services, 
   - [🔧 Setup Instructions](#-setup-instructions)
   - [📈 Future Enhancements](#-future-enhancements)
   - [👥 Contributing](#-contributing)
-  - [📄 License](#-license)
-## 🌐 Nexus Solutions(web-link):https://nexus-nine-alpha.vercel.app
+ 
+  ---------
+ 🌐 Nexus Solutions(web-link):https://nexus-nine-alpha.vercel.app
 ## 🚀 Features
 
 - ✨ Modern, responsive design
