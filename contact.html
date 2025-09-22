@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact DigitalBoost - Get a free consultation for your digital marketing needs">
+    <title>DigitalBoost - Contact Us</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__brand">
+                <h2>DigitalBoost</h2>
+            </div>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="about.html" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="services.html" class="nav__link">Services</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="portfolio.html" class="nav__link">Portfolio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contact.html" class="nav__link nav__link--active">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">&times;</div>
+            </div>
+            
+            <div class="nav__toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-header__title">Get In Touch</h1>
+                <p class="page-header__subtitle">Ready to boost your digital presence? Let's start with a free consultation</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section">
+            <div class="container">
+                <div class="contact-content">
+                    <!-- Contact Form -->
+                    <div class="contact-form-container" data-aos="fade-up">
+                        <h2 class="contact-form__title">Send us a Message</h2>
+                        <p class="contact-form__subtitle">Fill out the form below and we'll get back to you within 24 hours</p>
+                        
+                        <form class="contact-form" id="contact-form" novalidate>
+                            <div class="form-group">
+                                <div class="form-row">
+                                    <div class="form-field">
+                                        <label for="firstName" class="form-label">First Name *</label>
+                                        <input type="text" id="firstName" name="firstName" class="form-input" required>
+                                        <span class="form-error"></span>
+                                    </div>
+                                    <div class="form-field">
+                                        <label for="lastName" class="form-label">Last Name *</label>
+                                        <input type="text" id="lastName" name="lastName" class="form-input" required>
+                                        <span class="form-error"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <div class="form-row">
+                                    <div class="form-field">
+                                        <label for="email" class="form-label">Email Address *</label>
+                                        <input type="email" id="email" name="email" class="form-input" required>
+                                        <span class="form-error"></span>
+                                    </div>
+                                    <div class="form-field">
+                                        <label for="phone" class="form-label">Phone Number</label>
+                                        <input type="tel" id="phone" name="phone" class="form-input">
+                                        <span class="form-error"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <div class="form-field">
+                                    <label for="company" class="form-label">Company Name</label>
+                                    <input type="text" id="company" name="company" class="form-input">
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <div class="form-field">
+                                    <label for="service" class="form-label">Service Interest *</label>
+                                    <select id="service" name="service" class="form-select" required>
+                                        <option value="">Select a service</option>
+                                        <option value="seo">SEO Optimization</option>
+                                        <option value="social">Social Media Marketing</option>
+                                        <option value="ppc">PPC Advertising</option>
+                                        <option value="web">Web Design & Development</option>
+                                        <option value="all">All Services</option>
+                                        <option value="consultation">Free Consultation</option>
+                                    </select>
+                                    <span class="form-error"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <div class="form-field">
+                                    <label for="budget" class="form-label">Monthly Budget Range</label>
+                                    <select id="budget" name="budget" class="form-select">
+                                        <option value="">Select budget range</option>
+                                        <option value="500-1000">$500 - $1,000</option>
+                                        <option value="1000-2500">$1,000 - $2,500</option>
+                                        <option value="2500-5000">$2,500 - $5,000</option>
+                                        <option value="5000-10000">$5,000 - $10,000</option>
+                                        <option value="10000+">$10,000+</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <div class="form-field">
+                                    <label for="message" class="form-label">Tell us about your project *</label>
+                                    <textarea id="message" name="message" class="form-textarea" rows="5" 
+                                              placeholder="Describe your goals, current challenges, and what you hope to achieve..." required></textarea>
+                                    <span class="form-error"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <div class="form-checkbox">
+                                    <input type="checkbox" id="newsletter" name="newsletter" class="form-check">
+                                    <label for="newsletter" class="form-check-label">
+                                        I'd like to receive marketing tips and industry insights via email
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <button type="submit" class="btn btn--primary btn--large form-submit" id="submit-btn">
+                                Send Message
+                            </button>
+                            
+                            <div class="form-success" id="form-success">
+                                <p>✅ Thank you! Your message has been sent successfully. We'll get back to you within 24 hours.</p>
+                            </div>
+                        </form>
+                    </div>
+                    
+                    <!-- Contact Info -->
+                    <div class="contact-info" data-aos="fade-up" data-aos-delay="200">
+                        <h2 class="contact-info__title">Let's Connect</h2>
+                        <p class="contact-info__subtitle">
+                            We're here to help you grow your business. Reach out to us through any of these channels.
+                        </p>
+                        
+                        <div class="contact-info__items">
+                            <div class="contact-info__item">
+                                <div class="contact-info__icon">📞</div>
+                                <div class="contact-info__content">
+                                    <h3>Phone</h3>
+                                    <p>(555) 123-4567</p>
+                                    <p>Mon-Fri, 9AM-6PM EST</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-info__item">
+                                <div class="contact-info__icon">✉️</div>
+                                <div class="contact-info__content">
+                                    <h3>Email</h3>
+                                    <p>hello@digitalboost.com</p>
+                                    <p>We respond within 4 hours</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-info__item">
+                                <div class="contact-info__icon">📍</div>
+                                <div class="contact-info__content">
+                                    <h3>Office</h3>
+                                    <p>123 Business Street</p>
+                                    <p>City, State 12345</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-info__item">
+                                <div class="contact-info__icon">💬</div>
+                                <div class="contact-info__content">
+                                    <h3>Live Chat</h3>
+                                    <p>Available on our website</p>
+                                    <p>Mon-Fri, 9AM-6PM EST</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-info__social">
+                            <h3>Follow Us</h3>
+                            <div class="contact-social-links">
+                                <a href="#" class="contact-social-link" aria-label="Facebook">📘</a>
+                                <a href="#" class="contact-social-link" aria-label="Twitter">🐦</a>
+                                <a href="#" class="contact-social-link" aria-label="LinkedIn">💼</a>
+                                <a href="#" class="contact-social-link" aria-label="Instagram">📷</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq section section--light">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Frequently Asked Questions</h2>
+                    <p class="section__subtitle">Quick answers to common questions</p>
+                </div>
+                
+                <div class="faq-container">
+                    <div class="faq-item" data-aos="fade-up">
+                        <div class="faq-item__question">
+                            <h3>How quickly will I hear back from you?</h3>
+                            <span class="faq-item__toggle">+</span>
+                        </div>
+                        <div class="faq-item__answer">
+                            <p>We respond to all inquiries within 24 hours during business days. For urgent matters, you can call us directly at (555) 123-4567.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+                        <div class="faq-item__question">
+                            <h3>Is the initial consultation really free?</h3>
+                            <span class="faq-item__toggle">+</span>
+                        </div>
+                        <div class="faq-item__answer">
+                            <p>Yes! We offer a completely free 30-minute consultation where we'll assess your current digital presence and provide actionable recommendations, regardless of whether you decide to work with us.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                        <div class="faq-item__question">
+                            <h3>Do you work with businesses in my industry?</h3>
+                            <span class="faq-item__toggle">+</span>
+                        </div>
+                        <div class="faq-item__answer">
+                            <p>We work with businesses across all industries, from tech startups to established enterprises. Our strategies are customized to fit your specific industry challenges and opportunities.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                        <div class="faq-item__question">
+                            <h3>What happens after I submit this form?</h3>
+                            <span class="faq-item__toggle">+</span>
+                        </div>
+                        <div class="faq-item__answer">
+                            <p>Within 24 hours, one of our digital marketing specialists will reach out to schedule your free consultation. We'll review your current situation and create a custom strategy proposal.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta section section--primary">
+            <div class="container">
+                <div class="cta__content">
+                    <h2 class="cta__title">Ready to Get Started?</h2>
+                    <p class="cta__description">
+                        Don't wait – every day you delay is potential growth lost to competitors.
+                    </p>
+                    <div class="cta__buttons">
+                        <a href="tel:555-123-4567" class="btn btn--white btn--large">Call Now: (555) 123-4567</a>
+                        <a href="mailto:hello@digitalboost.com" class="btn btn--outline-white">Send Email</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3 class="footer__title">DigitalBoost</h3>
+                    <p class="footer__description">
+                        Empowering businesses with cutting-edge digital marketing solutions.
+                    </p>
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-link" aria-label="Facebook">📘</a>
+                        <a href="#" class="footer__social-link" aria-label="Twitter">🐦</a>
+                        <a href="#" class="footer__social-link" aria-label="LinkedIn">💼</a>
+                        <a href="#" class="footer__social-link" aria-label="Instagram">📷</a>
+                    </div>
+                </div>
+                
+                <div class="footer__section">
+                    <h4 class="footer__subtitle">Quick Links</h4>
+                    <ul class="footer__links">
+                        <li><a href="about.html" class="footer__link">About Us</a></li>
+                        <li><a href="services.html" class="footer__link">Services</a></li>
+                        <li><a href="portfolio.html" class="footer__link">Portfolio</a></li>
+                        <li><a href="contact.html" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h4 class="footer__subtitle">Services</h4>
+                    <ul class="footer__links">
+                        <li><a href="services.html" class="footer__link">SEO Optimization</a></li>
+                        <li><a href="services.html" class="footer__link">Social Media</a></li>
+                        <li><a href="services.html" class="footer__link">PPC Advertising</a></li>
+                        <li><a href="services.html" class="footer__link">Web Design</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h4 class="footer__subtitle">Contact Info</h4>
+                    <div class="footer__contact">
+                        <p>📍 123 Business St, City, State 12345</p>
+                        <p>📞 (555) 123-4567</p>
+                        <p>✉️ hello@digitalboost.com</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p>&copy; 2025 DigitalBoost. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/form-validation.js"></script>
+    <script src="js/faq.js"></script>
+</body>
+</html>

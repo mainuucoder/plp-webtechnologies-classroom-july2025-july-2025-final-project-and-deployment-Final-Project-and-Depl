@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DigitalBoost Portfolio - See our successful digital marketing campaigns and client success stories">
+    <title>DigitalBoost - Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__brand">
+                <h2>DigitalBoost</h2>
+            </div>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="about.html" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="services.html" class="nav__link">Services</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="portfolio.html" class="nav__link nav__link--active">Portfolio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contact.html" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">&times;</div>
+            </div>
+            
+            <div class="nav__toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-header__title">Our Portfolio</h1>
+                <p class="page-header__subtitle">Success stories and case studies from our satisfied clients</p>
+            </div>
+        </section>
+
+        <!-- Portfolio Filter -->
+        <section class="portfolio-filter section">
+            <div class="container">
+                <div class="filter-buttons">
+                    <button class="filter-btn filter-btn--active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="seo">SEO</button>
+                    <button class="filter-btn" data-filter="social">Social Media</button>
+                    <button class="filter-btn" data-filter="ppc">PPC</button>
+                    <button class="filter-btn" data-filter="web">Web Design</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Grid -->
+        <section class="portfolio section">
+            <div class="container">
+                <div class="portfolio-grid">
+                    <!-- Project 1 -->
+                    <div class="portfolio-item" data-category="seo" data-aos="fade-up">
+                        <div class="portfolio-item__image">
+                            <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpg?auto=compress&cs=tinysrgb&w=600" 
+                                 alt="TechStartup SEO Success" class="portfolio-item__img">
+                            <div class="portfolio-item__overlay">
+                                <div class="portfolio-item__content">
+                                    <h3 class="portfolio-item__title">TechStartup SEO Success</h3>
+                                    <p class="portfolio-item__category">SEO Optimization</p>
+                                    <button class="btn btn--small portfolio-item__btn" data-portfolio="project1">View Case Study</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item__info">
+                            <h3 class="portfolio-item__title">TechStartup SEO Success</h3>
+                            <p class="portfolio-item__result">300% increase in organic traffic</p>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="portfolio-item" data-category="social" data-aos="fade-up" data-aos-delay="100">
+                        <div class="portfolio-item__image">
+                            <img src="https://images.pexels.com/photos/267389/pexels-photo-267389.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                                 alt="Fashion Brand Social Media" class="portfolio-item__img">
+                            <div class="portfolio-item__overlay">
+                                <div class="portfolio-item__content">
+                                    <h3 class="portfolio-item__title">Fashion Brand Social Growth</h3>
+                                    <p class="portfolio-item__category">Social Media Marketing</p>
+                                    <button class="btn btn--small portfolio-item__btn" data-portfolio="project2">View Case Study</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item__info">
+                            <h3 class="portfolio-item__title">Fashion Brand Social Growth</h3>
+                            <p class="portfolio-item__result">500K+ followers gained in 6 months</p>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="portfolio-item" data-category="ppc" data-aos="fade-up" data-aos-delay="200">
+                        <div class="portfolio-item__image">
+                            <img src="https://images.pexels.com/photos/590020/pexels-photo-590020.jpg?auto=compress&cs=tinysrgb&w=600" 
+                                 alt="E-commerce PPC Campaign" class="portfolio-item__img">
+                            <div class="portfolio-item__overlay">
+                                <div class="portfolio-item__content">
+                                    <h3 class="portfolio-item__title">E-commerce PPC Success</h3>
+                                    <p class="portfolio-item__category">PPC Advertising</p>
+                                    <button class="btn btn--small portfolio-item__btn" data-portfolio="project3">View Case Study</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item__info">
+                            <h3 class="portfolio-item__title">E-commerce PPC Success</h3>
+                            <p class="portfolio-item__result">400% ROI improvement</p>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="portfolio-item" data-category="web" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-item__image">
+                            <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                                 alt="Restaurant Website Redesign" class="portfolio-item__img">
+                            <div class="portfolio-item__overlay">
+                                <div class="portfolio-item__content">
+                                    <h3 class="portfolio-item__title">Restaurant Website Redesign</h3>
+                                    <p class="portfolio-item__category">Web Design</p>
+                                    <button class="btn btn--small portfolio-item__btn" data-portfolio="project4">View Case Study</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item__info">
+                            <h3 class="portfolio-item__title">Restaurant Website Redesign</h3>
+                            <p class="portfolio-item__result">250% increase in online orders</p>
+                        </div>
+                    </div>
+
+                    <!-- Project 5 -->
+                    <div class="portfolio-item" data-category="seo" data-aos="fade-up" data-aos-delay="100">
+                        <div class="portfolio-item__image">
+                            <img src="https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                                 alt="Law Firm SEO Campaign" class="portfolio-item__img">
+                            <div class="portfolio-item__overlay">
+                                <div class="portfolio-item__content">
+                                    <h3 class="portfolio-item__title">Law Firm SEO Campaign</h3>
+                                    <p class="portfolio-item__category">SEO Optimization</p>
+                                    <button class="btn btn--small portfolio-item__btn" data-portfolio="project5">View Case Study</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item__info">
+                            <h3 class="portfolio-item__title">Law Firm SEO Campaign</h3>
+                            <p class="portfolio-item__result">Top 3 rankings for key terms</p>
+                        </div>
+                    </div>
+
+                    <!-- Project 6 -->
+                    <div class="portfolio-item" data-category="social" data-aos="fade-up" data-aos-delay="200">
+                        <div class="portfolio-item__image">
+                            <img src="https://images.pexels.com/photos/1029757/pexels-photo-1029757.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                                 alt="Fitness Brand Social Strategy" class="portfolio-item__img">
+                            <div class="portfolio-item__overlay">
+                                <div class="portfolio-item__content">
+                                    <h3 class="portfolio-item__title">Fitness Brand Social Strategy</h3>
+                                    <p class="portfolio-item__category">Social Media Marketing</p>
+                                    <button class="btn btn--small portfolio-item__btn" data-portfolio="project6">View Case Study</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item__info">
+                            <h3 class="portfolio-item__title">Fitness Brand Social Strategy</h3>
+                            <p class="portfolio-item__result">1M+ engagement increase</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Case Study Modal -->
+        <div class="modal" id="portfolio-modal">
+            <div class="modal__content">
+                <span class="modal__close">&times;</span>
+                <div class="case-study" id="case-study-content">
+                    <!-- Case study content will be dynamically loaded here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Section -->
+        <section class="results section section--light">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Our Track Record</h2>
+                    <p class="section__subtitle">Consistent results across all our client projects</p>
+                </div>
+                
+                <div class="results-grid">
+                    <div class="result-card" data-aos="fade-up">
+                        <div class="result-card__icon">📈</div>
+                        <div class="result-card__number">250%</div>
+                        <div class="result-card__label">Average Traffic Increase</div>
+                    </div>
+                    
+                    <div class="result-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="result-card__icon">💰</div>
+                        <div class="result-card__number">400%</div>
+                        <div class="result-card__label">Average ROI Improvement</div>
+                    </div>
+                    
+                    <div class="result-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="result-card__icon">🎯</div>
+                        <div class="result-card__number">85%</div>
+                        <div class="result-card__label">Conversion Rate Increase</div>
+                    </div>
+                    
+                    <div class="result-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="result-card__icon">⭐</div>
+                        <div class="result-card__number">95%</div>
+                        <div class="result-card__label">Client Satisfaction Rate</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials section">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Client Success Stories</h2>
+                    <p class="section__subtitle">Hear from the businesses we've helped grow</p>
+                </div>
+                
+                <div class="testimonials-carousel">
+                    <div class="testimonial-slide active">
+                        <div class="testimonial-content">
+                            <div class="testimonial-quote">
+                                <p>"DigitalBoost completely transformed our online presence. In just 6 months, we saw a 300% increase in organic traffic and our sales doubled. Their team is professional, knowledgeable, and truly cares about our success."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=150" 
+                                     alt="Sarah Johnson" class="testimonial-avatar">
+                                <div class="testimonial-info">
+                                    <h4>Sarah Johnson</h4>
+                                    <p>CEO, TechStartup Inc.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-slide">
+                        <div class="testimonial-content">
+                            <div class="testimonial-quote">
+                                <p>"Working with DigitalBoost was a game-changer for our fashion brand. They helped us grow from 10K to 500K followers on Instagram and increased our online sales by 400%. I couldn't recommend them more highly."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150" 
+                                     alt="Emma Davis" class="testimonial-avatar">
+                                <div class="testimonial-info">
+                                    <h4>Emma Davis</h4>
+                                    <p>Founder, StyleCo Fashion</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-slide">
+                        <div class="testimonial-content">
+                            <div class="testimonial-quote">
+                                <p>"The ROI on our PPC campaigns improved by 400% after partnering with DigitalBoost. Their data-driven approach and continuous optimization have been crucial to our e-commerce success."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150" 
+                                     alt="Mike Chen" class="testimonial-avatar">
+                                <div class="testimonial-info">
+                                    <h4>Mike Chen</h4>
+                                    <p>Marketing Director, ShopSmart</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-nav">
+                        <button class="carousel-btn carousel-btn--prev" id="prev-btn">&larr;</button>
+                        <div class="carousel-dots">
+                            <span class="carousel-dot active" data-slide="0"></span>
+                            <span class="carousel-dot" data-slide="1"></span>
+                            <span class="carousel-dot" data-slide="2"></span>
+                        </div>
+                        <button class="carousel-btn carousel-btn--next" id="next-btn">&rarr;</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta section section--primary">
+            <div class="container">
+                <div class="cta__content">
+                    <h2 class="cta__title">Ready to Join Our Success Stories?</h2>
+                    <p class="cta__description">
+                        Let's create a custom strategy that delivers the same impressive results for your business.
+                    </p>
+                    <a href="contact.html" class="btn btn--white btn--large">Start Your Success Story</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3 class="footer__title">DigitalBoost</h3>
+                    <p class="footer__description">
+                        Empowering businesses with cutting-edge digital marketing solutions.
+                    </p>
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-link" aria-label="Facebook">📘</a>
+                        <a href="#" class="footer__social-link" aria-label="Twitter">🐦</a>
+                        <a href="#" class="footer__social-link" aria-label="LinkedIn">💼</a>
+                        <a href="#" class="footer__social-link" aria-label="Instagram">📷</a>
+                    </div>
+                </div>
+                
+                <div class="footer__section">
+                    <h4 class="footer__subtitle">Quick Links</h4>
+                    <ul class="footer__links">
+                        <li><a href="about.html" class="footer__link">About Us</a></li>
+                        <li><a href="services.html" class="footer__link">Services</a></li>
+                        <li><a href="portfolio.html" class="footer__link">Portfolio</a></li>
+                        <li><a href="contact.html" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h4 class="footer__subtitle">Services</h4>
+                    <ul class="footer__links">
+                        <li><a href="services.html" class="footer__link">SEO Optimization</a></li>
+                        <li><a href="services.html" class="footer__link">Social Media</a></li>
+                        <li><a href="services.html" class="footer__link">PPC Advertising</a></li>
+                        <li><a href="services.html" class="footer__link">Web Design</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h4 class="footer__subtitle">Contact Info</h4>
+                    <div class="footer__contact">
+                        <p>📍 123 Business St, City, State 12345</p>
+                        <p>📞 (555) 123-4567</p>
+                        <p>✉️ hello@digitalboost.com</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p>&copy; 2025 DigitalBoost. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/portfolio.js"></script>
+</body>
+</html>
